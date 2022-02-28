@@ -45,7 +45,7 @@ done < ${WD}/targets.txt
 
 echo "<p>  null means  check-host.net overloaded and we need to wait 5-10 minutes until next check "  >>   $RPRT
 echo "<p>  <b>last update at $(date) </b>" >>   $RPRT
-echo "<p>  <a href='https://github.com/familyman-131/site-checker' target='_blank' > github </a> <br />"   >>   $RPRT
+echo "<p>  <a href='https://github.com/familyman-131/check-host' target='_blank' > github </a> <br />"   >>   $RPRT
 
 rm ${WD}/json/*.json
 rm ${LCKFL}
